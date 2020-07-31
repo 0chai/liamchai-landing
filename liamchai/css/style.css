@@ -1,6 +1,6 @@
 
 
-header, .buttons {
+header, .buttons, #profile-pic {
     text-align: center;
 /* fades out the blog title */
     -webkit-opacity: 0.02;
@@ -15,7 +15,7 @@ header, .buttons {
 
 /* fades blog title back in on hover */
 
-header:hover, .buttons:hover {
+header:hover, .buttons:hover, #profile-pic:hover {
     -webkit-opacity: 1;
     -moz-opacity: 1;
     opacity: 1;
