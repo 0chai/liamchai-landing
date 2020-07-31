@@ -104,3 +104,33 @@ body {
 .custom-shape-divider-bottom-1596154688 .shape-fill {
     fill: #9f5550;
 }
+
+/* Touchscreen / smaller devices */
+
+@media (max-height: 750px) {
+    header, .buttons {
+    text-align: center;
+/* fades out the blog title */
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    -webkit-transition: opacity 10s linear;
+    -moz-transition: opacity 10s linear;
+    -ms-transition: opacity 10s linear;
+    -o-transition: opacity 10s linear;
+    transition: opacity 10s linear;
+}
+
+/* fades blog title back in on hover */
+
+header:hover, .buttons:hover {
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
+	}
+}
