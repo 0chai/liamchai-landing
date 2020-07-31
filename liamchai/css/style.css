@@ -107,7 +107,7 @@ body {
 
 /* Touchscreen / smaller devices */
 
-@media (max-height: 750px) {
+@media (max-width: 768px) {
     header, .buttons {
     text-align: center;
 /* fades out the blog title */
