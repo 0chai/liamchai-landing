@@ -1,1 +1,1 @@
-alert('Daisy why don\'t you love pop ups?');
+alert('Pop ups are the best.');
