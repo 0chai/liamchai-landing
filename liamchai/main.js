@@ -1,1 +1,1 @@
-alert('You\'re awesome. That is all.');
+alert('Daisy tut tut');
